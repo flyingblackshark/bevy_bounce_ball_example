@@ -1,0 +1,15 @@
+[package]
+name = "bevy_bounce_ball_example"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bevy =  {path="..\\bevy"}
+bevy_fly_camera = {path="..\\bevy_fly_camera"}
+heron = { path="..\\heron",features=["3d"]}
+bevy_atmosphere={path="..\\bevy_atmosphere"}
+bevy_screen_diags = {path="..\\bevy_screen_diags"}
+bevy_obj = {path="..\\bevy_obj"}
+rand = "0.8.5"
